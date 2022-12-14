@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css -->
+  <link rel="stylesheet" href="css/fullpage.css"><!-- 스크롤라 사용시 링크 -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  
+  <!-- js -->
+  <script src="js/jquery-1.10.2.min.js"></script><!-- 항상 우선순위로 링크 -->
+  <script src="js/jquery.fullpage.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/script_main.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>  <!-- 카운트업할때 같이 사용되는 링크 -->
+
+  
+  <title>포메인 클론코딩</title>
+</head>
+<body>
+  <div class="wrap">
+    <!-- header -->
+    <header>
+      <div class="innerHeader">
+        <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="포메인로고"></a></h1>
+        <ul class="gnb">
+          <li>
+            <a href="#">phomein</a>
+            <ul class="inner">
+              <li><a href="#">브랜드소개</a></li>
+              <li><a href="#">CSR</a></li>
+              <li><a href="#">멤버쉽</a></li>
+              <li><a href="#">상품권</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">menu</a>
+            <ul class="inner">
+              <li><a href="#">메뉴소개</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">store</a>
+            <ul class="inner">
+              <li><a href="#">2018모범매장</a></li>
+              <li><a href="#">매장찾기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">community</a>
+            <ul class="inner">
+              <li><a href="#">브랜드소개</a></li>
+              <li><a href="#">CRS</a></li>
+              <li><a href="#">멤버쉽</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="#" class="franchise">프랜차이즈</a>
+      </div>
+    </header>
+    <div class="fullPageWrap"><!-- 모든 풀페이지 섹션 묶음 -->
+      <div id="fullpage">
+        <!-- section 1-->
+        <div class="section" id="section1">
+          <ul class="visual">
+            <li class="list" style="background-image: url(img/main_visual_01_01.jpg);">
+              <div class="textBox">
+                <p class="tit">쌀국수는 포메인</p>
+                <p class="txt">The World's Best Korean Vietnamese Restaurant Phomein</p>
+                <p class="dot">쌀국수는 포메인</p>
+              </div>
+            </li>
+
+            <li class="list" style="background-image: url(img/main_visual_01_02.jpg);">
+              <div class="textBox">
+                <p class="tit"><span>쌀 한톨부터 다른</span>포메인다움</p>
+                <p class="txt">햅쌀로 직접 만든 쌀국수면으로 깨끗하고 건강한 쌀국수를 선사합니다.</p>
+                <p class="dot">쌀 한톨부터 다른<br>포메인다움</p>
+              </div>
+            </li>
+
+            <li class="list" style="background-image: url(img/main_visual_01_03.jpg);">
+              <div class="textBox">
+                <p class="tit"><span>매일매일 까다로운</span>포메인다움</p>
+                <p class="txt">엄선한 천연 향신료로 매일 매장에서 14시간 끓여낸 육수를 담습니다.</p>
+                <p class="dot">매일매일 까다로운<br>포메인다움</p>
+              </div>
+            </li>
+
+            <li class="list" style="background-image: url(img/main_visual_01_04.jpg);">
+              <div class="textBox">
+                <p class="tit"><span>재료부터 건강한</span>포메인다움</p>
+                <p class="txt">유해 상품차단 시스템으로 안전하고 우수한 품질의 식자재를 공급받습니다.</p>
+                <p class="dot">재료부터 건강한<br>포메인다움</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- section 2 -->
+        <div class="section" id="section2">
+          <div class="inner">
+            <p class="label">SINCE 2006</p>
+            <p class="tit">대한민국 쌀국수의 역사,<br>포메인으로 부터.</p>
+            <div class="countBox">
+              <p class="count">32,490,058</p>
+              <p class="txt">쌀국수 누적 판매량</p>
+              <p><img src="img/ico_sales_volume.png" alt=""></p>
+            </div>
+          </div>
+        </div>
+        <!-- section 3 -->
+        <div class="section" id="section3">
+          <div class="topBox">
+            <p class="tit">베트남요리, <br><span>31가지 감동을 담다.</span></p>
+            <a href="#" class="btn">포메인 전체 메뉴 보기</a>
+            <p class="txt">*매장별로 판매 메뉴는 상이할 수 있습니다.</p>
+          </div>
+          <div class="bottomBox">
+            <ul>
+              <li>
+                <p class="img"><img src="img/ico_menu_info_01.png" alt=""></p>
+                <p class="data"><span class="count2">13</span><strong>th</strong></p>
+                <p class="txt">SINCE 2006</p>
+              </li>
+              <li>
+                <p class="img"><img src="img/ico_menu_info_02.png" alt=""></p>
+                <p class="data"><span class="count2">139</span></p>
+                <p class="txt">매장수<span>(2019년 3월 기준)</span></p>
+              </li>
+              <li>
+                <p class="img"><img src="img/ico_menu_info_03.png" alt=""></p>
+                <p class="data"><span class="count2">767</span><strong>억</strong></p>
+                <p class="txt">매출액<span>(2018년 기준)</span></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- section 4 -->
+        <div class="section" id="section4">
+          <div class="inner">
+            <div class="topBox">
+              <p class="txt"> ENJOY SERVICE</p>
+              <p class="tit">당신의 모든순간 <span>포메인</span></p>
+            </div>
+            <ul class="bottomBox">
+              <li class="left">
+                <a href="#">
+                  <span class="img01"><img src="img/ico_phone_01.png" alt=""></span>
+                  <span class="img02"><img src="img/ico_phone_02.png" alt=""></span>
+                  <p class="txt">포메인 <strong>카카오톡 선물하기</strong></p>
+                </a>
+              </li>
+              <li class="right">
+                <a href="#">
+                  <span class="img01"><img src="img/ico_moto_01.png" alt=""></span>
+                  <p class="txt">포메인 <strong>딜리버리 매장</strong></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- section 5 -->
+        <div class="section" id="section5">
+          <div class="inner">
+            <div class="topBox">
+              <p class="tit"><span>PHOMEIN CSR</span>포메인이 만드는 세상</p>
+              <p class="txt">식지 않는 뜨거운 진심으로 따뜻한 오늘, 따뜻한 세상을 만듭니다.</p>
+            </div>
+            <div class="bottomBox">
+              <a href="#"><img src="img/ico_csr.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <!-- section 6 -->
+        <div class="section" id="section6">
+          <div class="inner">
+            <div class="topBox">
+              <p class="tit">PHOMEIN <span>SNS</span></p>
+            </div>
+            <div class="bottomBox">
+              <ul class="snsList">
+                <li><a href="#"><img src="img/sns_1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/sns_2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/sns_3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/sns_4.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/sns_5.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/sns_6.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/sns_7.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/sns_8.jpg" alt=""></a></li>
+              </ul>
+              <ul class="snsIco">
+                <li class="ico-f"><a href="#"><span>페이스북</span></a></li>
+                <li class="ico-i"><a href="#"><span>인스타그램</span></a></li>
+                <li class="ico-b"><a href="#"><span>블로그</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- section 7 -->
+        <div class="section" id="section7">
+          <div class="topBox">
+            <div class="news">
+              <span class="label">NEWS</span>
+              <ul>
+                <li><a href="#"><span>2019.05.24</span>포메인 13주년 기념, 포메인 소스<br>구매 고객 대상 이벤트 실시</a></li>
+                <li><a href="#"><span>2019.05.16</span>포메인, 국내 최초 햅쌀 쌀국수면 런칭!</a></li>
+                <li><a href="#"><span>2019.05.01</span>포메인, 공식 홈페이지 리뉴얼 오픈 이벤트</a></li>
+                <li><a href="#"><span>2019.04.18</span>포메인, 푸드뱅크에 1억 8000만원 상당 햅쌀 쌀국수면 기부! 먹거리 나눔 실천</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottomBox">
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="label">EVENT</span>
+                  <p class="tit">포메인 배달 꿀조합을 보여줘! <br>(~12/20)</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="label">FRANCHISE</span>
+                  <p class="img"><img src="img/main_franchisee_02.png" alt="phomein"></p>
+                  <p class="tit">가맹 문의</p>
+                  <p class="txt">대표번호 : 1234-1234(연결 1)  /  031-780-1500 (직통) <br>이메일 : help@phomein.com</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="section fp-auto-height">
+          <!-- 원하는 높이 지정을 위해 fp-auto-height 옵션을 클래스에 추가 -->
+          <div class="footer">
+            <div class="topBox">
+              <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보 취급방침</a></li>
+                <li><a href="#">이메일 무단 수집 거부</a></li>
+                <li><a href="#">고객의 소리</a></li>
+                <li><a href="#">마일리지</a></li>
+                <li><a href="#">상품권 구매</a></li>
+              </ul>
+            </div>  
+            <div class="bottomBox">
+              <h2><img src="img/logo.png" alt="포메인"></h2>
+              <ul class="add">
+                <li>상호 : 주식회사 | 주소 : 서울특별시</li>
+                <li>대표 전화 : 1234-5678 | 사업자등록번호 : 123-56-7894</li>
+                <li>ⓒ 2021 Sojung RESERVED.</li>
+              </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+      <!-- 오른쪽네비 -->
+      <ul class="rightNav" id="rightNav">
+        <li data-menuanchor="firstPage" class="active">
+          <a href="#firstPage">
+            <span>홈</span>
+          </a>
+        </li>
+        <li data-menuanchor="secondPage">
+          <a href="#secondPage">
+            <span>브랜드</span>
+          </a>
+        </li>
+        <li data-menuanchor="thirdPage">
+          <a href="#thirdPage">
+            <span>메뉴</span>
+          </a>
+        </li>
+        <li data-menuanchor="fourthPage">
+          <a href="#fourthPage">
+            <span>서비스</span>
+          </a>
+        </li>
+        <li data-menuanchor="fifthPage">
+          <a href="#fifthPage">
+            <span>사회공헌</span>
+          </a>
+        </li>
+        <li data-menuanchor="sixthPage">
+          <a href="#sixthPage">
+            <span>SNS</span>
+          </a>
+        </li>
+        <li data-menuanchor="seventhPage">
+          <a href="#seventhPage">
+            <span>커뮤니티</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
